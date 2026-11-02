@@ -78,7 +78,7 @@ CE_SKULL = '<tg-emoji emoji-id="6035142758480482309">💀</tg-emoji>'
 CE_GLOBE = '<tg-emoji emoji-id="6028126693179264852">🌐</tg-emoji>'
 
 # ==================== CONFIG ====================
-TOKEN = '8997796072:AAF58ag2tNUNdouCNwn-oCGtqx3r3O01KSU'
+TOKEN = '8679185615:AAHvQ3xUNWhgtweucY4ArWnJuBw9OpnM2Hk'
 OWNER_ID = 8781077406
 ADMIN_IDS = {8781077406}
 
@@ -98,7 +98,7 @@ def load_settings():
             pass
     default_settings = {
         "upi_id": "aryanyt321@fam",
-        "upload_channel": -1004343568857  # Default upload channel/group ID
+        "upload_channel": -1003920080941  # Default upload channel/group ID
     }
     save_settings(default_settings)
     return default_settings
