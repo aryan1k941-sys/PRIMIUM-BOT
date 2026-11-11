@@ -78,9 +78,9 @@ CE_SKULL = '<tg-emoji emoji-id="6035142758480482309">💀</tg-emoji>'
 CE_GLOBE = '<tg-emoji emoji-id="6028126693179264852">🌐</tg-emoji>'
 
 # ==================== CONFIG ====================
-TOKEN = '9197670609:AAEDq_3W9AtBsz-7PHxLvB25hJqwHMDoitI'
-OWNER_ID = 8781077406
-ADMIN_IDS = {8781077406}
+TOKEN = '9262072982:AAGV0O7UlLMRbqtL0oOUMu6ZmsNwnZfrzJ8'
+OWNER_ID = 8680144387
+ADMIN_IDS = {8680144387}
 
 CHANNELS_FILE = 'force_channels.json'
 USERS_DATA_FILE = 'users_db.json'
@@ -120,8 +120,8 @@ def load_force_channels():
         except:
             pass
     default_channels = [
-        {"id": "@BOTS_UPDATE_07", "name": "Main Channel"},
-        {"id": "@FREEARUAN", "name": "Main Group"}
+        {"id": "@yt_honter17", "name": "Main Channel"},
+        {"id": "@sellingboy12", "name": "Main Group"}
     ]
     save_force_channels(default_channels)
     return default_channels
